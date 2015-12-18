@@ -7,3 +7,5 @@ I changed the upper limit of steps to MAX_VALUE = 2147483647 in Preferences.java
 Before the modification: public static final int DEFAULT_INFINITE_TM_STEPS = 100000;
 
 After: public static final  int DEFAULT_INFINITE_TM_STEPS = Integer.MAX_VALUE; //2147483647
+
+Directory: VAS-TM-and-FA/revised_TM/src/edu/usfca/vas/app/Preferences.java
